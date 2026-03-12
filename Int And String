@@ -1,0 +1,20 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.*;
+import java.util.Scanner;
+class TestClass {
+    public static void main(String args[] ) 
+    {
+     Scanner sc = new Scanner(System.in);
+     int n = sc.nextInt();
+     int a = n * 2;
+     System.out.println(a);
+     String s = sc.next();
+     System.out.println(s);
+    }
+}
+//First line contains integer N.             Sample Input 5
+//                                             helloworld
+//                                            Sample Output 10
+//                                              helloworld
+//Second line contains string S.
